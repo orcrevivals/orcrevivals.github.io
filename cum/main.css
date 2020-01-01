@@ -1,0 +1,90 @@
+* {
+	font-family:Comic Sans MS;
+}
+div {
+	text-align:center;
+}
+div.box {
+	width:888px;
+	background-color:#b0c4de;
+	border:1px solid black;
+	padding:5px 5px 5px;
+	margin:auto;
+	overflow:auto;
+}
+span {
+	clear:both;
+	display:block;
+	text-align:center;
+	color:Blue;
+	font-size:12px;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:visited {
+	color:Blue;
+}
+img {
+	margin:10px 10px 0;
+}
+h1 {
+	margin:0;
+	font-size:18px;
+	font-weight:bold;
+	color:#333;
+}
+h4 {
+	margin:0;
+	border-bottom:1px solid black;
+	background-color:#ccc;
+	font-size:12px;
+}
+h5 {
+	margin:0;
+	font-size:12px;
+}
+p {
+	margin:0;
+	font-size:12px;
+	color:#666;
+}
+.link {
+	font-family:Verdana;
+	font-size:10px;
+	color:Red;
+}
+input {
+	margin:5px;
+}
+input[type=date] {
+	font-family:Verdana;
+	border:1px dashed #333;
+	background-color:White;
+}
+textarea {
+	font-family:Verdana;
+	border:1px dashed #333;
+}
+button {
+	border:solid 1px #333;
+	background-color:White;
+	color:#333;
+	font-family:Verdana;
+	font-size:10px;
+	padding:3px 10px;
+}
+button:hover {
+	background-color:#6e99c9;
+	color:White;
+	cursor:pointer;
+}
+#banner {
+	background-image:url(banner.png);
+	width:100%;
+	height:72px;
+	border-bottom:1px solid black;
+}
